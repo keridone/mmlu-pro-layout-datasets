@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "dataset": "mmlu-weight-layout-v1",
+  "tiers": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "medium_revision": "medium-v2",
+  "data_files": {
+    "large/performance.requests.jsonl.gz": {
+      "bytes": 41384387,
+      "sha256": "41cbd67ee7f4aa7a23f2c44e60f9bc9b023b8244d4fc106b592a9b25928813d4"
+    },
+    "large/quality.answers.jsonl.gz": {
+      "bytes": 44286,
+      "sha256": "4ae4273a9ea4688b0b8f80bc0602ec14fb9811fa4d34d2c1deab7844e0f371a7"
+    },
+    "large/quality.requests.jsonl.gz": {
+      "bytes": 5768180,
+      "sha256": "518257b9fdfca67ab74ddcf00e795d869eb12f1914f2bddef611c9121a4a1572"
+    },
+    "medium/performance.requests.jsonl.gz": {
+      "bytes": 10114235,
+      "sha256": "df71239782ea4dcc9f4bf316cc3e0194f1e319d688477ca2412779b427cb856e"
+    },
+    "medium/quality.answers.jsonl.gz": {
+      "bytes": 10109,
+      "sha256": "c3210ca43fa81751018d9d62ff2cc7775c2184382c619ac94f27fa454f169a3b"
+    },
+    "medium/quality.requests.jsonl.gz": {
+      "bytes": 1182882,
+      "sha256": "0749a276d75b439c72e923ac69aafa4acfae1523aa2f1098628b75172d9ee803"
+    },
+    "small/performance.requests.jsonl.gz": {
+      "bytes": 1284153,
+      "sha256": "ddcf0b7fa700daadf566002256f697e1c9006f442251707c6514d8b19bd58acf"
+    },
+    "small/quality.answers.jsonl.gz": {
+      "bytes": 551,
+      "sha256": "17c59a9581461a4012fe9cdb9dfa2d4a518e3bf650da131b650209002a56f9c9"
+    },
+    "small/quality.requests.jsonl.gz": {
+      "bytes": 29390,
+      "sha256": "f20d7ba4a4f83f68daf1d42cf7b9588c4be1bf850a1e3c9814af4b944cd68648"
+    }
+  }
+}
