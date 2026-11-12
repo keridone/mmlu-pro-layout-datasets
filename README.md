@@ -60,7 +60,7 @@ python scripts/unpack.py small
 
 原始清单为历史溯源记录，包含生成时的模型路径。仓库不附带模型权重、tokenizer文件或原始Parquet。数据集来源和许可证说明见 [THIRD_PARTY.md](THIRD_PARTY.md)。
 
-## 实验协议
+## 实验协议（仅供参考）
 
 1. 默认先运行Small；只有同条件对照与复测明确有收益后，才进入Medium。Large保留作历史与可复现参照，默认不加入实验队列。
 2. Small性能并发1/8/32，序列预算32、Token调度预算4096；Medium正式并发1/4/8/16/32/64，序列预算64、Token调度预算8192。这些历史协议不同，两个量级的吞吐不能混合平均。
